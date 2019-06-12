@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Corps Humain</title>
+    <link href="./style/style.css" rel="stylesheet">
+</head>
+<body>
+    <h1>Le Corps Humain</h1>
+    
+    <section id="corps">
+            <div class="cercle1 cercle" onclick= "openModal('tete')"></div>
+            <div class="cercle2 cercle" onclick= "openModal('epaule')"></div>
+            <div class="cercle3 cercle" onclick= "openModal('ventre')"></div>
+            <div class="cercle4 cercle" onclick="openModal('appareil reproducteur')"></div>
+            <div class="cercle5 cercle" onclick= "openModal('jambes')"></div>
+       
+
+        <div id="tete" onclick= "openModal('tete')"> <img src="media/tete.png" alt="tete" ></div>
+        <div id="epaule"onclick= "openModal('epaule')"><img src="media/epaule.png" alt="epaule" ></div>
+        <div id="ventre"onclick= "openModal('ventre')"><img src="media/ventre.png" alt="ventre" ></div>
+        <div id="penis"onclick= "openModal('appareil reproducteur')"><img src="./media/reproduction.png" alt="appareil reproducteur"></div>
+        <div id="jambes"onclick= "openModal('jambes')"><img src="media/jambes.png" alt="jambes" ></div>
+    </section>
+    <div class="container-modal">
+        <div class="modal">
+            <h1 id="title-modal">qsdgqsdg</h1>
+            <p id="text-modal">qsdfsd</p>
+            <button onclick="closeModal()">Close</button>
+           
+        </div>
+    </div>
+    <script src="script/index.js"></script>
+</body>
+</html>
